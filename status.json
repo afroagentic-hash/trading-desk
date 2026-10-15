@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:32:21+02:00",
+ "updated": "2026-10-15T22:04:27+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -155,7 +155,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-15T20:25:00+02:00",
+   "last_update": "2026-10-15T22:04:27+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -177,6 +177,13 @@
      "note": "Requested",
      "start": null,
      "eta": null
+    },
+    {
+     "title": "BTC Overreact watchlist",
+     "state": "Blocked",
+     "start": "2026-10-15T22:04:27+02:00",
+     "eta": null,
+     "note": "TradingView unreachable from browser; daily retry 07:54"
     }
    ]
   },
