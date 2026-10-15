@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T22:04:27+02:00",
+ "updated": "2026-10-15T23:15:46+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -67,7 +67,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-15T20:25:00+02:00",
+   "last_update": "2026-10-15T23:15:46+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -81,6 +81,21 @@
      "state": "Queued",
      "start": null,
      "eta": null
+    },
+    {
+     "title": "Options Master Playbook",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-15T23:15:46+02:00",
+     "note": "21-page PDF + backtest spec on Drive, 14 setups (OPT-A1..B8)"
+    },
+    {
+     "title": "BTC Daily High/Low Framework",
+     "state": "Working",
+     "start": "2026-10-15T23:15:46+02:00",
+     "eta": "02:30",
+     "note": "Compiling library + team inputs (Ines, Viktor, Leo, Clara, Manuela)"
     }
    ]
   },
