@@ -1,0 +1,46 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trading Desk</title><script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root{--bg:#0b0f17;--card:#141a26;--line:#222b3b;--tx:#e6ebf5;--mu:#8a96ad;--g:#22c55e;--y:#eab308;--b:#3b82f6;--r:#ef4444;--gr:#64748b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 Inter,system-ui,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 28px;border-bottom:1px solid var(--line)}
+h1{font-size:20px;margin:0}.mu{color:var(--mu)}main{padding:22px 28px;max-width:1500px;margin:auto}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:22px}
+.k,.c,.p{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.k b{display:block;font-size:28px;margin-top:4px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.c h3{margin:0;font-size:16px}.top{display:flex;gap:10px;align-items:center}.ic{font-size:24px}
+.pill{margin-left:auto;padding:3px 10px;border-radius:99px;font-size:12px;display:flex;gap:6px;align-items:center;background:#0e1420;border:1px solid var(--line)}
+.dot{width:8px;height:8px;border-radius:50%}.Working .dot,.s-Working{background:var(--g)}.Monitoring .dot,.s-Monitoring{background:var(--b)}
+.Idle .dot,.s-Idle,.s-Done{background:var(--gr)}.Blocked .dot,.s-Blocked{background:var(--r)}.s-Queued{background:var(--y)}
+.Working .dot,.Monitoring .dot{animation:p 1.6s infinite}@keyframes p{50%{opacity:.35}}
+ul{list-style:none;padding:0;margin:12px 0}li{padding:8px 0;border-top:1px solid var(--line)}
+.tag{font-size:11px;padding:1px 7px;border-radius:6px;color:#fff;margin-right:6px}.meta{font-size:12px;color:var(--mu)}
+.row2{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-top:22px}@media(max-width:900px){.row2{grid-template-columns:1fr}}
+h2{font-size:15px;margin:0 0 12px}.foot{font-size:12px;color:var(--mu);border-top:1px solid var(--line);padding-top:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 0;border-top:1px solid var(--line)}
+</style></head><body>
+<header><div><h1>🛰️ Trading Desk</h1><span class="mu">Dedry's agent team · live</span></div>
+<div class="mu" style="text-align:right"><span id="upd"></span><br><span id="poll"></span></div></header>
+<main><div class="kpis" id="kpis"></div><div class="grid" id="cards"></div>
+<div class="row2"><div class="p"><h2>🗓️ Jobs timeline (today, Zurich time)</h2><canvas id="gantt" height="260"></canvas>
+<p class="meta">Bars run from start to ETA (or to now / done time). Jobs without a recorded start time are listed on cards only.</p></div>
+<div class="p"><h2>💰 Costs</h2><table id="cost"></table><p class="meta" id="cnote"></p></div></div></main>
+<script>
+const TZ='Europe/Zurich',f=t=>t?new Date(t).toLocaleString('en-GB',{timeZone:TZ,weekday:'short',hour:'2-digit',minute:'2-digit'}):'—';
+let chart,last=0;
+async function load(){try{const d=await (await fetch('status.json?t='+Date.now(),{cache:'no-store'})).json();render(d);last=Date.now()}catch(e){document.getElementById('poll').textContent='⚠️ fetch failed, retrying'}}
+function render(d){const A=d.agents,J=A.flatMap(a=>a.jobs.map(j=>({...j,a:a.name})));
+const open=J.filter(j=>j.state!=='Done').length,act=A.filter(a=>a.status==='Working'||a.status==='Monitoring').length,bl=A.filter(a=>a.status==='Blocked').length+J.filter(j=>j.state==='Blocked').length;
+document.getElementById('upd').textContent='Data updated '+f(d.updated)+' Zurich';
+document.getElementById('kpis').innerHTML=[['🟢 Agents active',act+' / '+A.length],['🧩 Open jobs',open],['⛔ Blockers',bl],['💵 Data spend','$'+(+d.costs.data_purchases_usd).toFixed(2)],['🧠 API / compute','Not tracked']].map(([l,v])=>`<div class="k"><span class="mu">${l}</span><b>${v}</b></div>`).join('');
+document.getElementById('cards').innerHTML=A.map(a=>`<div class="c"><div class="top"><span class="ic">${a.icon||'🤖'}</span><div><h3>${a.name}</h3><span class="mu">${a.role}</span></div><span class="pill ${a.status}"><span class="dot"></span>${a.status}</span></div>
+<ul>${a.jobs.map(j=>`<li><span class="tag s-${j.state}">${j.state}</span>${j.title}${j.note?`<div class="meta">ℹ️ ${j.note}</div>`:''}<div class="meta">Start ${f(j.start)} · ETA ${j.eta?f(j.eta):(j.state==='Done'?'—':'no ETA')}${j.done?' · Done '+f(j.done):''}</div></li>`).join('')}</ul>
+<div class="foot">Last update ${f(a.last_update)} · Data spend $${(+a.spend_usd).toFixed(2)} · API/compute: Not tracked</div></div>`).join('');
+document.getElementById('cost').innerHTML=A.map(a=>`<tr><td>${a.icon} ${a.name}</td><td>$${(+a.spend_usd).toFixed(2)}</td><td class="mu">Not tracked</td></tr>`).join('')+`<tr><td><b>Total</b></td><td><b>$${(+d.costs.data_purchases_usd).toFixed(2)}</b></td><td class="mu">Not tracked</td></tr>`;
+document.getElementById('cnote').textContent='Columns: data purchases · API/compute. '+d.costs.api_compute_note;
+const now=Date.now(),G=J.filter(j=>j.start).map(j=>{const s=+new Date(j.start),e=j.done?+new Date(j.done):j.eta?+new Date(j.eta):now;return{l:j.a+': '+j.title.slice(0,40),v:[s,Math.max(e,s+6e4)],st:j.state}});
+const col={Working:'#22c55e',Monitoring:'#3b82f6',Done:'#64748b',Blocked:'#ef4444',Queued:'#eab308'};
+const data={labels:G.map(g=>g.l),datasets:[{data:G.map(g=>g.v),backgroundColor:G.map(g=>col[g.st]||'#64748b'),borderRadius:6}]};
+if(chart){chart.data=data;chart.update()}else chart=new Chart(gantt,{type:'bar',data,options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>f(c.raw[0])+' → '+f(c.raw[1])}}},scales:{x:{type:'linear',ticks:{color:'#8a96ad',callback:v=>new Date(v).toLocaleTimeString('en-GB',{timeZone:TZ,hour:'2-digit',minute:'2-digit'})},grid:{color:'#222b3b'}},y:{ticks:{color:'#e6ebf5'},grid:{display:false}}}}})}
+load();setInterval(load,60000);setInterval(()=>{document.getElementById('poll').textContent=last?'Refreshed '+Math.round((Date.now()-last)/1000)+'s ago · auto every 60s':''},1000);
+</script></body></html>

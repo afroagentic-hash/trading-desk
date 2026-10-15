@@ -1,0 +1,208 @@
+{
+ "updated": "2026-10-15T20:26:05+02:00",
+ "costs": {
+  "data_purchases_usd": 0,
+  "data_purchases_note": "No data purchased yet",
+  "api_compute": "Not tracked",
+  "api_compute_note": "Per-agent API/compute costs are not visible. Check Grok Bot Settings > Usage."
+ },
+ "agents": [
+  {
+   "id": "viktor",
+   "name": "Viktor",
+   "role": "Backtester",
+   "icon": "📊",
+   "status": "Idle",
+   "last_update": "2026-10-15T20:19:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Bruni backtests: BTC 5y (no edge); ES/NQ partial on free 1h data",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-15T20:19:00+02:00"
+    },
+    {
+     "title": "Databento ES/NQ 5y minute data",
+     "state": "Blocked",
+     "note": "Awaiting Dedry's approval",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "ines",
+   "name": "Ines",
+   "role": "Data Science / Confidence Score",
+   "icon": "🧪",
+   "status": "Working",
+   "last_update": "2026-10-15T20:26:05+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Bruni stats check",
+     "state": "Working",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Confidence-score & risk-model visual plan",
+     "state": "Working",
+     "start": "2026-10-15T20:17:00+02:00",
+     "eta": null
+    },
+    {
+     "title": "Daily high/low framework input",
+     "state": "Working",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "max",
+   "name": "Max",
+   "role": "Trading Playbooks",
+   "icon": "📘",
+   "status": "Working",
+   "last_update": "2026-10-15T20:25:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Options playbook",
+     "state": "Working",
+     "start": "2026-10-15T20:10:00+02:00",
+     "eta": null
+    },
+    {
+     "title": "Lead BTC daily high/low framework",
+     "state": "Queued",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "role": "Charts & Order Flow",
+   "icon": "📈",
+   "status": "Monitoring",
+   "last_update": "2026-10-15T20:23:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Standing: draw Edwin's signals into TradingView 'Fresh Signals'",
+     "state": "Monitoring",
+     "note": "TradingView connection intermittent",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Daily high/low framework input",
+     "state": "Done",
+     "done": "2026-10-15T20:23:00+02:00",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "manuela",
+   "name": "Manuela",
+   "role": "Trading Library",
+   "icon": "📚",
+   "status": "Idle",
+   "last_update": "2026-10-15T20:25:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Options inventory",
+     "state": "Done",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Daily high/low inventory",
+     "state": "Done",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "edwin",
+   "name": "Edwin",
+   "role": "Live Channel Viewer",
+   "icon": "📺",
+   "status": "Monitoring",
+   "last_update": "2026-10-15T20:25:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Monitor YouTube lives, relay signals to Dedry and Leo",
+     "state": "Monitoring",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "clara",
+   "name": "Clara",
+   "role": "Market Mover Screener",
+   "icon": "🔎",
+   "status": "Monitoring",
+   "last_update": "2026-10-15T20:25:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "BTC Overreact routine (daily 07:54)",
+     "state": "Monitoring",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Hourly Binance ranking",
+     "state": "Blocked",
+     "note": "Paused: Dedry's PC offline",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Daily high/low framework input",
+     "state": "Queued",
+     "note": "Requested",
+     "start": null,
+     "eta": null
+    }
+   ]
+  },
+  {
+   "id": "dana",
+   "name": "Dana",
+   "role": "Market Digest",
+   "icon": "📰",
+   "status": "Blocked",
+   "last_update": "2026-10-15T20:25:00+02:00",
+   "spend_usd": 0,
+   "jobs": [
+    {
+     "title": "Daily digest",
+     "state": "Monitoring",
+     "start": null,
+     "eta": null
+    },
+    {
+     "title": "Discord token reset + Message Content Intent",
+     "state": "Blocked",
+     "note": "Pending",
+     "start": null,
+     "eta": null
+    }
+   ]
+  }
+ ]
+}
