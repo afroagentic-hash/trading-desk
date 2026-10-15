@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T01:23:52+02:00",
+ "updated": "2026-10-16T01:25:15+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -171,7 +171,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T01:23:52+02:00",
+   "last_update": "2026-10-16T01:25:15+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -203,11 +203,11 @@
     },
     {
      "title": "Crypto top-100 mover scan",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T01:23:52+02:00",
      "eta": "01:35",
-     "note": "Scheduled scan starting",
-     "done": "2026-10-16T00:58:43+02:00"
+     "note": "No alert; quiet chop F&G 53",
+     "done": "2026-10-16T01:25:15+02:00"
     }
    ]
   },
