@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:58:07+02:00",
+ "updated": "2026-10-16T07:59:11+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -248,7 +248,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T07:58:07+02:00",
+   "last_update": "2026-10-16T07:59:11+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -304,10 +304,11 @@
     },
     {
      "title": "BTC Overreact watchlist refresh",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T07:56:11+02:00",
      "eta": "08:06",
-     "note": "ovr.py OK (50); TradingView browser sync in progress"
+     "note": "Created BTC Overreact on TV (50 symbols); first live",
+     "done": "2026-10-16T07:59:11+02:00"
     }
    ]
   },
