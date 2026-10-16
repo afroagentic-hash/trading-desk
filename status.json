@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:36:46+02:00",
+ "updated": "2026-10-16T16:04:38+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -340,7 +340,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T15:36:46+02:00",
+   "last_update": "2026-10-16T16:04:38+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -375,8 +375,8 @@
      "state": "Done",
      "start": "2026-10-16T15:35:16+02:00",
      "eta": "15:50",
-     "note": "15:33 no alert; TIA pressing 0.7142",
-     "done": "2026-10-16T15:36:46+02:00"
+     "note": "16:03 no alert; TIA closes under 0.7181 72h hi",
+     "done": "2026-10-16T16:04:38+02:00"
     },
     {
      "title": "Crypto top-100 mover scan 04:00",
