@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:33:17+02:00",
+ "updated": "2026-10-16T06:34:01+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -52,7 +52,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T06:19:39+02:00",
+   "last_update": "2026-10-16T06:34:01+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -87,6 +87,13 @@
      "eta": null,
      "note": "Registry (296 trials), scaled DSR bar, and hold-out vault ready; estimator choice pending with Marco",
      "done": "2026-10-16T06:19:39+02:00"
+    },
+    {
+     "title": "S1 review + P(final) refit",
+     "state": "Working",
+     "start": "2026-10-16T06:34:01+02:00",
+     "eta": null,
+     "note": "0297 signed off; refitting P(final) model pre-2025-10 to remove OOS leakage"
     }
    ]
   },
