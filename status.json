@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:31:28+02:00",
+ "updated": "2026-10-16T06:32:26+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -96,7 +96,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T06:29:06+02:00",
+   "last_update": "2026-10-16T06:32:26+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -137,10 +137,11 @@
     },
     {
      "title": "2 backup BTC strategies (S4, S5), free data",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T06:29:06+02:00",
      "eta": "09:00",
-     "note": "Design, freeze, hash, register in Ines's registry"
+     "note": "S4/S5 registered and on Drive; S1 registered late and needs Ines's sign-off",
+     "done": "2026-10-16T06:32:26+02:00"
     }
    ]
   },
@@ -222,7 +223,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T06:31:12+02:00",
+   "last_update": "2026-10-16T06:32:26+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -254,11 +255,11 @@
     },
     {
      "title": "Crypto top-100 mover scan",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T06:31:12+02:00",
      "eta": "06:43",
-     "note": "Hourly mover scan :31",
-     "done": "2026-10-16T06:05:23+02:00"
+     "note": "No alert; INJ holding ~9.21 post 06:05 re-alert",
+     "done": "2026-10-16T06:32:26+02:00"
     },
     {
      "title": "Crypto top-100 mover scan 04:00",
