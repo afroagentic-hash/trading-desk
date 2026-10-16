@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:06:00+02:00",
+ "updated": "2026-10-16T15:12:27+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -143,7 +143,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T13:09:29+02:00",
+   "last_update": "2026-10-16T15:12:27+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -219,6 +219,13 @@
      "eta": "13:45",
      "note": "Incremental scan: nothing new or changed vs _processed.json",
      "done": "2026-10-16T13:09:29+02:00"
+    },
+    {
+     "title": "Incremental library check",
+     "state": "Working",
+     "start": "2026-10-16T15:12:27+02:00",
+     "eta": "15:30",
+     "note": "Routine: compare trading-library vs _processed.json"
     }
    ]
   },
