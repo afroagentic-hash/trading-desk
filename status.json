@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:05:23+02:00",
+ "updated": "2026-10-16T06:07:31+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -45,7 +45,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T06:04:28+02:00",
+   "last_update": "2026-10-16T06:07:31+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -71,7 +71,7 @@
      "state": "Working",
      "start": "2026-10-16T06:04:28+02:00",
      "eta": null,
-     "note": "Building pre-registered validation harness; waiting on Viktor's D1/D2 runs"
+     "note": "Harness ready and self-tested; waiting on Viktor's D1/D2 outputs and prereg hash file"
     }
    ]
   },
