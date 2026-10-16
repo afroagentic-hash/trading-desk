@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T19:15:42+02:00",
+ "updated": "2026-10-16T19:16:25+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -143,7 +143,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T19:15:42+02:00",
+   "last_update": "2026-10-16T19:16:25+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -207,10 +207,11 @@
     },
     {
      "title": "Dedry playbook v2 (RR 1:1-1:2)",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T12:36:43+02:00",
      "eta": "13:30",
-     "note": "Registering 1R/1.5R/2R variants, then PDF v2"
+     "note": "v2 on Drive, registered 0321-0323",
+     "done": "2026-10-16T19:16:25+02:00"
     },
     {
      "title": "Process new trading library lessons",
