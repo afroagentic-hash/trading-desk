@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:58:34+02:00",
+ "updated": "2026-10-16T12:00:05+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -293,7 +293,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T11:58:34+02:00",
+   "last_update": "2026-10-16T12:00:05+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -365,10 +365,11 @@
     },
     {
      "title": "Crypto top-100 mover scan 11:56",
-     "state": "Working",
-     "start": "2026-10-16T11:58:34+02:00",
+     "state": "Done",
+     "start": "2026-10-16T12:00:05+02:00",
      "eta": "12:10",
-     "note": "Running scan.py + deep checks on watchlist/movers"
+     "note": "NO_ALERT — WLD still soft-inv ~0.524; TIA/INJ/ARB/ZRO hold under re-alert bars",
+     "done": "2026-10-16T12:00:05+02:00"
     }
    ]
   },
