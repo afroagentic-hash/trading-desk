@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:16:54+02:00",
+ "updated": "2026-10-16T06:19:39+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -45,7 +45,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T06:16:54+02:00",
+   "last_update": "2026-10-16T06:19:39+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -75,10 +75,11 @@
     },
     {
      "title": "Strategy trial registry + hold-out vault",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T06:16:54+02:00",
      "eta": null,
-     "note": "Building global trial count, scaled significance bar, and reserved hold-out"
+     "note": "Registry (296 trials), scaled DSR bar, and hold-out vault ready; estimator choice pending with Marco",
+     "done": "2026-10-16T06:19:39+02:00"
     }
    ]
   },
@@ -88,7 +89,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T06:13:30+02:00",
+   "last_update": "2026-10-16T06:19:38+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -121,10 +122,11 @@
     },
     {
      "title": "3 institutional strategy designs (BTC, ES/NQ, options)",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T06:13:30+02:00",
      "eta": "09:30",
-     "note": "Design + pre-registered pass criteria + backtest specs, no testing"
+     "note": "3 strategy docs + 3 backtest specs + 3 PDFs on Drive; rules frozen and hashed",
+     "done": "2026-10-16T06:19:38+02:00"
     }
    ]
   },
