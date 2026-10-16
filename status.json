@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T23:15:33+02:00",
+ "updated": "2026-10-16T23:26:42+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -13,7 +13,7 @@
    "role": "Backtester",
    "icon": "📊",
    "status": "Idle",
-   "last_update": "2026-10-16T23:15:33+02:00",
+   "last_update": "2026-10-16T23:26:42+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -78,10 +78,11 @@
     },
     {
      "title": "Chart Champions 14",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T23:06:41+02:00",
      "eta": "00:30",
-     "note": "17 CC1 trials registered by Ines; engine hashed; IS run in progress, OOS sealed"
+     "note": "IS done 17/17: no edge, 0 pass. OOS sealed for Ines to open once",
+     "done": "2026-10-16T23:26:42+02:00"
     }
    ]
   },
