@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:31:12+02:00",
+ "updated": "2026-10-16T06:31:28+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -13,7 +13,7 @@
    "role": "Backtester",
    "icon": "📊",
    "status": "Idle",
-   "last_update": "2026-10-16T06:12:13+02:00",
+   "last_update": "2026-10-16T06:31:28+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -36,6 +36,13 @@
      "start": "2026-10-16T06:04:28+02:00",
      "eta": "12:30",
      "note": "Rules frozen+hashed; free Dukascopy download throttled, done ~11:00, then IS/OOS run"
+    },
+    {
+     "title": "BTC S1 Asia failed auction",
+     "state": "Working",
+     "start": "2026-10-16T06:31:28+02:00",
+     "eta": "08:30",
+     "note": "free Binance, prereg"
     }
    ]
   },
