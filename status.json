@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:20:57+02:00",
+ "updated": "2026-10-16T06:29:06+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -89,7 +89,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T06:19:38+02:00",
+   "last_update": "2026-10-16T06:29:06+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -127,6 +127,13 @@
      "eta": "09:30",
      "note": "3 strategy docs + 3 backtest specs + 3 PDFs on Drive; rules frozen and hashed",
      "done": "2026-10-16T06:19:38+02:00"
+    },
+    {
+     "title": "2 backup BTC strategies (S4, S5), free data",
+     "state": "Working",
+     "start": "2026-10-16T06:29:06+02:00",
+     "eta": "09:00",
+     "note": "Design, freeze, hash, register in Ines's registry"
     }
    ]
   },
