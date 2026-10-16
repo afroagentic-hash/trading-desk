@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:28:15+02:00",
+ "updated": "2026-10-16T07:30:15+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -248,7 +248,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T07:28:15+02:00",
+   "last_update": "2026-10-16T07:30:15+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -280,11 +280,11 @@
     },
     {
      "title": "Crypto top-100 mover scan",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T07:28:15+02:00",
      "eta": "07:45",
-     "note": "Hourly scan :28",
-     "done": "2026-10-16T07:01:55+02:00"
+     "note": "No alert; INJ ~9.22 holding, ZRO shallow reclaim not confirmed",
+     "done": "2026-10-16T07:30:15+02:00"
     },
     {
      "title": "Crypto top-100 mover scan 04:00",
