@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:14:51+02:00",
+ "updated": "2026-10-16T11:27:33+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -183,7 +183,7 @@
    "role": "Charts & Order Flow",
    "icon": "📈",
    "status": "Monitoring",
-   "last_update": "2026-10-16T08:15:10+02:00",
+   "last_update": "2026-10-16T11:27:33+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -207,6 +207,13 @@
      "eta": null,
      "done": "2026-10-16T08:15:10+02:00",
      "note": "Levels drawn on Grok Charts Drawer; summary sent to Dedry"
+    },
+    {
+     "title": "Learn Dedry's BTC order-flow setups from recordings",
+     "state": "Working",
+     "start": "2026-10-16T11:27:33+02:00",
+     "eta": "14:00",
+     "note": "Reviewing recordings, then drawing on Grok Charts Drawer"
     }
    ]
   },
