@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T13:59:55+02:00",
+ "updated": "2026-10-16T14:01:56+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -332,7 +332,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T13:59:55+02:00",
+   "last_update": "2026-10-16T14:01:56+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -364,11 +364,11 @@
     },
     {
      "title": "Crypto top-100 mover scan",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T13:59:55+02:00",
      "eta": "14:15",
-     "note": "Hourly :53/:23 scan",
-     "done": "2026-10-16T12:27:05+02:00"
+     "note": "ALERTED TIA re-alert print then soft-fail 0.70",
+     "done": "2026-10-16T14:01:56+02:00"
     },
     {
      "title": "Crypto top-100 mover scan 04:00",
