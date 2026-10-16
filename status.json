@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T17:59:10+02:00",
+ "updated": "2026-10-16T19:09:12+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -143,7 +143,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T17:08:04+02:00",
+   "last_update": "2026-10-16T19:09:12+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -227,6 +227,13 @@
      "eta": "17:20",
      "note": "No new/changed lessons; library matches _processed.json",
      "done": "2026-10-16T17:08:04+02:00"
+    },
+    {
+     "title": "Incremental trading library",
+     "state": "Working",
+     "start": "2026-10-16T19:09:12+02:00",
+     "eta": "19:45",
+     "note": "Comparing library vs _processed.json for new/changed lessons"
     }
    ]
   },
