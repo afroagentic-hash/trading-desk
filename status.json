@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T08:09:42+02:00",
+ "updated": "2026-10-16T08:11:11+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -318,7 +318,7 @@
    "role": "Market Digest",
    "icon": "📰",
    "status": "Blocked",
-   "last_update": "2026-10-15T20:25:00+02:00",
+   "last_update": "2026-10-16T08:11:11+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -333,6 +333,13 @@
      "note": "Pending",
      "start": null,
      "eta": null
+    },
+    {
+     "title": "Channel scorecard",
+     "state": "Working",
+     "start": "2026-10-16T08:11:11+02:00",
+     "eta": null,
+     "note": "Extracting ideas, grading vs public prices"
     }
    ]
   }
