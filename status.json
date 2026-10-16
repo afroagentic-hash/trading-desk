@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T10:30:13+02:00",
+ "updated": "2026-10-16T11:06:32+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -121,7 +121,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T06:32:26+02:00",
+   "last_update": "2026-10-16T11:06:32+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -167,6 +167,13 @@
      "eta": "09:00",
      "note": "S4/S5 registered and on Drive; S1 registered late and needs Ines's sign-off",
      "done": "2026-10-16T06:32:26+02:00"
+    },
+    {
+     "title": "Chart Champions YouTube batch (1387 videos)",
+     "state": "Working",
+     "start": "2026-10-16T11:06:32+02:00",
+     "eta": null,
+     "note": "Incremental library run: triage, summaries, playbooks, glossary, Drive sync"
     }
    ]
   },
