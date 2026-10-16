@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T22:28:34+02:00",
+ "updated": "2026-10-16T22:45:46+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -12,8 +12,8 @@
    "name": "Viktor",
    "role": "Backtester",
    "icon": "📊",
-   "status": "Working",
-   "last_update": "2026-10-16T22:28:34+02:00",
+   "status": "Idle",
+   "last_update": "2026-10-16T22:45:46+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -70,10 +70,11 @@
     },
     {
      "title": "Bruni v3 pre-registered run",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T22:28:34+02:00",
      "eta": null,
-     "note": "Download done (73 failed fetches being retried); next build, IS, cost gate/power, OOS once, Ines validate.py"
+     "note": "Verdict: D1 FAIL (OOS n 689, net -0.110R/trade, win 39%, maxDD 91R); D2 forward-only (power fail, OOS sealed unread); D3 not run",
+     "done": "2026-10-16T22:45:46+02:00"
     }
    ]
   },
