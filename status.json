@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T19:16:25+02:00",
+ "updated": "2026-10-16T22:28:34+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -12,8 +12,8 @@
    "name": "Viktor",
    "role": "Backtester",
    "icon": "📊",
-   "status": "Idle",
-   "last_update": "2026-10-16T12:41:28+02:00",
+   "status": "Working",
+   "last_update": "2026-10-16T22:28:34+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -67,6 +67,13 @@
      "start": "2026-10-16T11:49:19+02:00",
      "eta": "13:30",
      "note": "0318-0320 and 0321-0323 all REJECT; r3_validate needs variant IDs"
+    },
+    {
+     "title": "Bruni v3 pre-registered run",
+     "state": "Working",
+     "start": "2026-10-16T22:28:34+02:00",
+     "eta": null,
+     "note": "Download done (73 failed fetches being retried); next build, IS, cost gate/power, OOS once, Ines validate.py"
     }
    ]
   },
