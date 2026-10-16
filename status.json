@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:29:06+02:00",
+ "updated": "2026-10-16T06:31:12+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -215,7 +215,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-16T06:05:23+02:00",
+   "last_update": "2026-10-16T06:31:12+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -247,10 +247,10 @@
     },
     {
      "title": "Crypto top-100 mover scan",
-     "state": "Done",
-     "start": "2026-10-16T06:03:12+02:00",
-     "eta": "06:20",
-     "note": "ALERT INJ re-alert: 05:45 15m close 9.243 >9.2, OI 6.4→9.1M, hour 13.8x; ZRO still invalid; F&G 63 BTC~82k",
+     "state": "Working",
+     "start": "2026-10-16T06:31:12+02:00",
+     "eta": "06:43",
+     "note": "Hourly mover scan :31",
      "done": "2026-10-16T06:05:23+02:00"
     },
     {
