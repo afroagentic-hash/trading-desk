@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T23:06:41+02:00",
+ "updated": "2026-10-16T23:08:22+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -91,7 +91,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T22:47:51+02:00",
+   "last_update": "2026-10-16T23:08:22+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -157,6 +157,14 @@
      "eta": null,
      "done": "2026-10-16T22:47:51+02:00",
      "note": "Bruni v3 confirmed: D1 rejected (net -0.11R/trade, fails both bars); D2 underpowered, sealed for forward test; D3 not run"
+    },
+    {
+     "title": "Chart Champions: register 14 strategies",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-16T23:08:22+02:00",
+     "note": "17 trials registered (13 strategies, 1 skipped); N=343; handed to Viktor"
     }
    ]
   },
