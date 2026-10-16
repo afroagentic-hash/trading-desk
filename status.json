@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T12:41:28+02:00",
+ "updated": "2026-10-16T12:42:54+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -76,7 +76,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T12:40:18+02:00",
+   "last_update": "2026-10-16T12:42:54+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -126,6 +126,14 @@
      "start": "2026-10-16T11:49:10+02:00",
      "eta": null,
      "note": "0318-0320 rejected (n<20); 0321-0323 cleared to open, awaiting results"
+    },
+    {
+     "title": "R3 0321-0323 validation",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-16T12:42:54+02:00",
+     "note": "0321-0323 independently re-run: all REJECT (n=14, net R negative, DSR<=0.016). Matches Viktor."
     }
    ]
   },
