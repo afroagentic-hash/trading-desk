@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T22:45:46+02:00",
+ "updated": "2026-10-16T22:47:51+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -84,7 +84,7 @@
    "role": "Data Science / Confidence Score",
    "icon": "🧪",
    "status": "Working",
-   "last_update": "2026-10-16T12:42:54+02:00",
+   "last_update": "2026-10-16T22:47:51+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -142,6 +142,14 @@
      "eta": null,
      "done": "2026-10-16T12:42:54+02:00",
      "note": "0321-0323 independently re-run: all REJECT (n=14, net R negative, DSR<=0.016). Matches Viktor."
+    },
+    {
+     "title": "Bruni v3 verdict check",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-16T22:47:51+02:00",
+     "note": "Bruni v3 confirmed: D1 rejected (net -0.11R/trade, fails both bars); D2 underpowered, sealed for forward test; D3 not run"
     }
    ]
   },
