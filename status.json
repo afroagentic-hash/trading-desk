@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T13:11:33+02:00",
+ "updated": "2026-10-16T13:12:42+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -228,7 +228,7 @@
    "role": "Charts & Order Flow",
    "icon": "📈",
    "status": "Monitoring",
-   "last_update": "2026-10-16T13:11:33+02:00",
+   "last_update": "2026-10-16T13:12:42+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -267,6 +267,14 @@
      "eta": "14:30",
      "note": "Spec saved in training folder",
      "done": "2026-10-16T13:11:33+02:00"
+    },
+    {
+     "title": "Encode Dedry 5-step method v2",
+     "state": "Done",
+     "start": null,
+     "eta": null,
+     "done": "2026-10-16T13:12:42+02:00",
+     "note": "v2 spec saved in training folder"
     }
    ]
   },
