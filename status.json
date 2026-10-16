@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:40:47+02:00",
+ "updated": "2026-10-16T11:48:45+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -121,7 +121,7 @@
    "role": "Trading Playbooks",
    "icon": "📘",
    "status": "Working",
-   "last_update": "2026-10-16T11:37:40+02:00",
+   "last_update": "2026-10-16T11:48:45+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -177,10 +177,11 @@
     },
     {
      "title": "Dedry recordings playbook + backtest spec",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-16T11:37:40+02:00",
      "eta": "15:00",
-     "note": "Video 1 analysis started; video 2 pending compression"
+     "note": "PDF/Doc/spec on Drive; registered R3-dedry-0318..0320",
+     "done": "2026-10-16T11:48:45+02:00"
     }
    ]
   },
