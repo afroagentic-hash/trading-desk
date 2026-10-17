@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T16:32:13+02:00",
+ "updated": "2026-10-17T16:33:00+02:00",
  "costs": {
   "data_purchases_usd": 0,
   "data_purchases_note": "No data purchased yet",
@@ -404,7 +404,7 @@
    "role": "Market Mover Screener",
    "icon": "🔎",
    "status": "Monitoring",
-   "last_update": "2026-10-17T16:32:13+02:00",
+   "last_update": "2026-10-17T16:33:00+02:00",
    "spend_usd": 0,
    "jobs": [
     {
@@ -492,10 +492,11 @@
     },
     {
      "title": "Mover scan 16:31",
-     "state": "Working",
+     "state": "Done",
      "start": "2026-10-17T16:32:13+02:00",
      "eta": null,
-     "note": "top-100 scan"
+     "note": "no alert; TIA wick under 24h low, watching close",
+     "done": "2026-10-17T16:33:00+02:00"
     }
    ]
   },
